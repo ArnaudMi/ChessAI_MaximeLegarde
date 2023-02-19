@@ -1,17 +1,17 @@
 
-### Maxime Legarde : AI for Chess
+# Maxime Legarde : AI for Chess
 
-# Running the program
+### Running the program
 
 Feel free to create an environment of your own and then run the command : pip install -r requirements.txt
 
-# Interface
+### Interface
 
 The interface where you play is made using **pygame** 2.1.2 and **numpy** 1.22.4.
 
 All the rules of Chess are implemented. There are still a few buggs.
 
-# AI
+### AI
 
 The AI is a Neural Network built using **tensorflow** 2.9.1. 
 
@@ -22,6 +22,6 @@ After the input layer there are 4 Conv2D layers activated using the 'relu' funct
 
 The AI has been trained in a database of more than 10^6 millions of positions evaluated by stockfish_15 which has won the 11, 12, 13 and 14th season of the **Top Chess Engine Championship**.
 
-# Playing Moves
+### Playing Moves
 
 The AI is having difficulties playing moves involving tactics as it only searches one move ahead. This needs further improvements.
